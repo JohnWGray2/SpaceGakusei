@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SpaceGakusei</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark justify-content-center sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/sglogo.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="sun.html">Sun</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Planets
+                        </a>
+                        <div class="dropdown-menu bg-dark">
+                            <a class="dropdown-item text-white" href="mercury.html">Mercury</a>
+                            <a class="dropdown-item" href="venus.html">Venus</a>
+                            <a class="dropdown-item" href="earth.html">Earth</a>
+                            <a class="dropdown-item" href="mars.html">Mars</a>
+                            <a class="dropdown-item" href="jupiter.html">Jupiter</a>
+                            <a class="dropdown-item" href="saturn.html">Saturn</a>
+                            <a class="dropdown-item" href="uranus.html">Uranus</a>
+                            <a class="dropdown-item" href="neptune.html">Neptune</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Dwarf Planets
+                        </a>
+                        <div class="dropdown-menu bg-dark">
+                            <a class="dropdown-item text-white" href="eris.html">Eris</a>
+                            <a class="dropdown-item" href="pluto.html">Pluto</a>
+                            <a class="dropdown-item" href="haumea.html">Haumea</a>
+                            <a class="dropdown-item" href="ceres.html">Ceres</a>
+
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Asteroids
+                        </a>
+                        <div class="dropdown-menu bg-dark">
+                            <a class="dropdown-item text-white" href="vesta.html">4 Vesta</a>
+                            <a class="dropdown-item" href="bennu.html">101955 Bennu</a>
+                            <a class="dropdown-item" href="eros.html">433 Eros</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Comets
+                        </a>
+                        <div class="dropdown-menu bg-dark">
+                            <a class="dropdown-item text-white" href="hally.html">Hally's Comet</a>
+                            <a class="dropdown-item" href="bopp.html">Comet Hale-Bopp</a>
+                            <a class="dropdown-item" href="chury.html">67P/Churyumov–Gerasimenko</a>
+                            <a class="dropdown-item" href="neowise.html">Comet NEOWISE</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Main image-->
+    <header class="masthead">
+        <div class="container-fluid">
+        </div>
+    </header>
+
+    <!-- Solar System Cards -->
+    <div class="container-fluid padding text-center">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card-column">
+
+                    <div id="euro" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/sun.jpg" alt="Sun">
+                                <div class="bottom-right">Credit: NASA/SDO</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Sun</h4>
+                        <a href="sun.html" class="btn btn-outline-secondary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card-column">
+
+                    <div id="euro" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/mercury.jpg" alt="Mercury">
+                                <div class="bottom-right">Credit: NASA/JHUAPL/CIW</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Mercury</h4>
+                        <a href="mercury.html" class="btn btn-outline-secondary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card-column">
+
+                    <div id="euro" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/venus.jpg" alt="Venus">
+                                <div class="bottom-right">Credit: NASA/JPL-Caltech</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Venus</h4>
+                        <a href="#" class="btn btn-outline-secondary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card-column">
+
+                    <div id="euro" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/earth.jpg" alt="Earth">
+                                <div class="bottom-right">Credit: NASA Goddard Space Flight Center</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Earth</h4>
+                        <a href="earth.html" class="btn btn-outline-secondary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card-column">
+
+                    <div id="euro" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/mars.jpg" alt="Mars">
+                                <div class="bottom-right">Credit: ESA & MPS for OSIRIS Team
+                                    MPS/UPD/LAM/IAA/RSSD/INTA/UPM/DASP/IDA</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Mars</h4>
+                        <a href="mars.html" class="btn btn-outline-secondary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card-column">
+
+                    <div id="euro" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/jupiter.jpg" alt="Jupiter">
+                                <div class="bottom-right">Credit: NASA/ESA/Amy Simon(NASA Goddard)</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Jupiter</h4>
+                        <a href="jupiter.html" class="btn btn-outline-secondary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card-column">
+
+                    <div id="euro" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/saturn.jpg" alt="Saturn">
+                                <div class="bottom-right">Credit: NASA/JPL/Space Science Institute</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Saturn</h4>
+                        <a href="saturn.html" class="btn btn-outline-secondary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card-column">
+
+                    <div id="euro" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/uranus.jpg" alt="Uranus">
+                                <div class="bottom-right">Credit: NASA/JPL</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Uranus</h4>
+                        <a href="uranus.html" class="btn btn-outline-secondary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card-column">
+
+                    <div id="euro" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/neptune.jpg" alt="Neptune">
+                                <div class="bottom-right">Credit: NASA/JPL-Caltech</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Neptune</h4>
+                        <a href="neptune.html" class="btn btn-outline-secondary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-column">
+
+                    <div id="euro" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/pluto.jpg" alt="Pluto">
+                                <div class="bottom-right">Credit: NASA/JHUAPL/SwRI</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Dwarf Planets</h4>
+
+                        <a href="pluto.html" class="btn btn-outline-secondary">Pluto</a>
+                        <a href="eris.html" class="btn btn-outline-secondary">Eris</a>
+                        <a href="haumea.html" class="btn btn-outline-secondary">Haumea</a>
+                        <a href="ceres.html" class="btn btn-outline-secondary">Ceres</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-column">
+
+                    <div id="euro" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/bennu.jpg" alt="Bennu">
+                                <div class="bottom-right">Credit: NASA/Goddard/UArizona</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Asteroids</h4>
+
+                        <a href="vesta.html" class="btn btn-outline-secondary">Vesta</a>
+                        <a href="bennu.html" class="btn btn-outline-secondary">Bennu</a>
+                        <a href="eros.html" class="btn btn-outline-secondary">Eros</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-column">
+
+                    <div id="euro" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/hally.jpg" alt="Hally's Comet">
+                                <div class="bottom-right">Credit: NASA/Goddard/UArizona</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Comets</h4>
+
+                        <a href="hally.html" class="btn btn-outline-secondary">Hally</a>
+                        <a href="bopp.html" class="btn btn-outline-secondary">Hale-Bopp</a>
+                        <a href="chury.html" class="btn btn-outline-secondary">67P</a>
+                        <a href="neowise.html" class="btn btn-outline-secondary">NEOWISE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--- Footer -->
+    <footer>
+        <br>
+        <div class="container-fluid padding bg-dark">
+            <div class="row text-center padding">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-code"></i>
+                    <h3>HTML5</h3>
+                    <p>Built with latest version of HTML, HTML5.</p>
+                    <hr class="light">
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-bold"></i>
+                    <h3>BOOTSTRAP</h3>
+                    <p>Built with the latest version of Bootstrap, Boostrap 4.</p>
+                    <hr class="light">
+                </div>
+
+                <div class="col-sm-12  col-md-4">
+                    <i class="fab fa-css3"></i>
+                    <h3>CSS3</h3>
+                    <p>Built with the latest version of CSS, CSS3.</p>
+                    <hr class="light">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
